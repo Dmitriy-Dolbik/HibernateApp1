@@ -1,14 +1,9 @@
 package HibernateApp.Dmitriy;
 
 
-import HibernateApp.Dmitriy.model.Actor;
-import HibernateApp.Dmitriy.model.Movie;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class App {
     public static void main(String[] args) {
