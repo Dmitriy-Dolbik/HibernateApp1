@@ -16,7 +16,7 @@ public class Person {
     @Column(name="age")
     private int age;
 
-    @OneToMany (mappedBy = "person", fetch = FetchType.LAZY)
+    @OneToMany (mappedBy = "owner", fetch = FetchType.LAZY)
     private List<Item> items;
     public Person(){}
 
